@@ -12,8 +12,8 @@ const dataA = [
 const dataB_NoSJ = [
     { date: "19 March", title: "Outbound to Miami", detail: "Charlotte: JetBlue (€464) | David: Frontier (€78)", cost: "€542", icon: "✈️", stay: "12 Days" },
     { date: "31 March", title: "To Cincinnati (CVG)", detail: "FLL -> CVG | Delta (x2 passengers)", cost: "€252", icon: "🕍", stay: "12 Days Pesach" },
-    { date: "12 April", title: "To New York (JFK)", detail: "CVG -> JFK | United (x2 passengers)", cost: "€244", icon: "🗽", stay: "21 Days" },
-    { date: "05 May", title: "Return to AMS", detail: "KLM/Delta Options", cost: "€327", icon: "🛫", stay: "End" }
+    { date: "12 April", title: "To New York (JFK)", detail: "CVG -> JFK | United (x2 passengers)", cost: "€218", icon: "🗽", stay: "21 Days" },
+    { date: "05 May", title: "Return to AMS", detail: "KLM/Delta Options", cost: "€403", icon: "🛫", stay: "End" }
 ];
 
 const dataB_SJ = [
@@ -21,7 +21,7 @@ const dataB_SJ = [
     { date: "31 March", title: "To Cincinnati (CVG)", detail: "FLL -> CVG | Delta (x2 passengers)", cost: "€252", icon: "🕍", stay: "12 Days Pesach" },
     { date: "12 April", title: "San Juan Extension", detail: "CVG -> SJU | American (x2 passengers)", cost: "€218", icon: "🌴", stay: "9 Days" },
     { date: "21 April", title: "To New York (JFK)", detail: "SJU -> JFK | Delta/JetBlue (x2 passengers)", cost: "€244", icon: "🗽", stay: "12 Days" },
-    { date: "05 May", title: "Return to AMS", detail: "KLM/Delta Options", cost: "€402", icon: "🛫", stay: "End" }
+    { date: "05 May", title: "Return to AMS", detail: "KLM/Delta Options", cost: "€403", icon: "🛫", stay: "End" }
 ];
 
 // -----------------------------
