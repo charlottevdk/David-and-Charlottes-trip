@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Overlay Animation */
+#intro-overlay {
+    transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#intro-overlay.hidden-panel {
+    transform: translateY(-100%);
+}
+
+/* Runaway Button Transition */
+#no-trip-btn {
+    transition: all 0.15s ease-out;
+    position: absolute;
+    z-index: 10;
+}
+
+/* Price Pop Animation */
+@keyframes pricePop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.price-animate {
+    animation: pricePop 0.3s ease-out;
+}
+
+/* Timeline Connector */
+.timeline-line::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 40px;
+    bottom: -20px;
+    width: 2px;
+    background: #e2e8f0;
+}
+
+.timeline-item:last-child .timeline-line::before {
+    display: none;
+}
